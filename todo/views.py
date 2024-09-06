@@ -28,11 +28,15 @@ class TaskUpdateView(UpdateView):
     success_url = reverse_lazy('home')
 
 
-def toggle_task_status(request, pk):
-    task = get_object_or_404(Task, pk=pk)
-    task.is_done = not task.is_done
-    task.save()
-    return redirect('home')
+class ToggleTaskStatusView(View):
+    def post(self, request, pk):
+        task = get_object_or_404(Task, pk=pk)
+        task.is_done = not task.is_done
+        task.save()
+        return redirect(reverse_lazy('home'))
+
+    def get(self, request, pk):
+        return self.post(request, pk)
 
 
 class TaskDeleteView(DeleteView):

@@ -3,6 +3,7 @@ from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.views.generic.base import View
 from django.shortcuts import redirect
 from django.shortcuts import get_object_or_404
+
 from .models import Task, Tag
 from .forms import TaskForm, TagForm
 

@@ -1,5 +1,4 @@
 from django import forms
-
 from .models import Task, Tag
 from crispy_forms.helper import FormHelper
 

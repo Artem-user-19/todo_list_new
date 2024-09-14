@@ -29,6 +29,9 @@ This is a Django-based todo list web application that allows users to manage tas
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/todo-list-project.git
+2. Run application:
    enter in code redactor
-   write python manage.py migrate
-   than python manage.py runserver
+   ```bash
+   python manage.py migrate
+  ```bash
+    python manage.py runserver

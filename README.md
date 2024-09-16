@@ -35,3 +35,16 @@ This is a Django-based todo list web application that allows users to manage tas
    python manage.py migrate
   ```bash
     python manage.py runserver
+```
+
+## Screenshots
+![screen_1.png](screenshots/Screen_1.png)
+![screen_1.png](screenshots/Screen_2.png)
+![screen_1.png](screenshots/Screen_3.png)
+![screen_1.png](screenshots/Screen_4.png)
+![screen_1.png](screenshots/Screen_5.png)
+![screen_1.png](screenshots/Screen_6.png)
+![screen_1.png](screenshots/Screen_7.png)
+
+
+

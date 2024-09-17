@@ -61,6 +61,3 @@ Nothing special, you just add new tag for task topic definition
 ### Completed task
 When you clicked `Complete` button, you pointed this task finished
 ![screen_1.png](screenshots/Screen_7.png)
-
-
-
